@@ -1,9 +1,6 @@
 # DiceGameChallange
 
-#Please refresh me to get new result.
-For full screen visit: <a href="https://prajjwalsubedi.github.io/DiceGameChallange/index.html">Dice Roll Game</a>
+# Please visit <a href="https://prajjwalsubedi.github.io/DiceGameChallange/index.html">Dice Roll Game</a> for live Preview.
 
-<iframe
-  src="https://prajjwalsubedi.github.io/DiceGameChallange/index.html"
-  style="width:100%; height:300px;"
-></iframe>
+![Screenshot of Live Preview](https://github.com/prajjwalsubedi/DiceGameChallange/blob/main/Dice.png)
+
