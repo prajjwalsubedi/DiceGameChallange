@@ -40,20 +40,21 @@ footer {
 
 }
 
+.reload_container {
+  margin-top: 3%;
+}
+
 .button {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  padding: 9px 42px;
-  border: 1px solid #378f71;
+  padding: 7px 42px;
+  border: 2px solid #378f71;
   border-radius: 12px;
-  background: #5aebba;
-  background: -webkit-gradient(linear, left top, left bottom, from(#5aebba), to(#378f71));
-  background: -moz-linear-gradient(top, #5aebba, #378f71);
-  background: linear-gradient(to bottom, #5aebba, #378f71);
-  -webkit-box-shadow: #5ef5c2 0px 0px 40px 0px;
-  -moz-box-shadow: #5ef5c2 0px 0px 40px 0px;
-  box-shadow: #5ef5c2 0px 0px 40px 0px;
+  background: #09b57c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#09b57c), to(#2dbd8d));
+  background: -moz-linear-gradient(top, #09b57c, #2dbd8d);
+  background: linear-gradient(to bottom, #09b57c, #2dbd8d);
   text-shadow: #276651 1px 1px 1px;
   font: normal normal bold 23px comic sans ms;
   color: #ffffff;
@@ -61,18 +62,18 @@ footer {
 }
 .button:hover,
 .button:focus {
-  background: #6cffdf;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6cffdf), to(#42ac88));
-  background: -moz-linear-gradient(top, #6cffdf, #42ac88);
-  background: linear-gradient(to bottom, #6cffdf, #42ac88);
+  background: #0bd995;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0bd995), to(#36e3a9));
+  background: -moz-linear-gradient(top, #0bd995, #36e3a9);
+  background: linear-gradient(to bottom, #0bd995, #36e3a9);
   color: #ffffff;
   text-decoration: none;
 }
 .button:active {
-  background: #378f71;
-  background: -webkit-gradient(linear, left top, left bottom, from(#378f71), to(#378f71));
-  background: -moz-linear-gradient(top, #378f71, #378f71);
-  background: linear-gradient(to bottom, #378f71, #378f71);
+  background: #056d4a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#056d4a), to(#2dbd8d));
+  background: -moz-linear-gradient(top, #056d4a, #2dbd8d);
+  background: linear-gradient(to bottom, #056d4a, #2dbd8d);
 }
 .button:before{
   content:  "\0000a0";
