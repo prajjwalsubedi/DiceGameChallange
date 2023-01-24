@@ -39,3 +39,51 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 9px 42px;
+  border: 1px solid #378f71;
+  border-radius: 12px;
+  background: #5aebba;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5aebba), to(#378f71));
+  background: -moz-linear-gradient(top, #5aebba, #378f71);
+  background: linear-gradient(to bottom, #5aebba, #378f71);
+  -webkit-box-shadow: #5ef5c2 0px 0px 40px 0px;
+  -moz-box-shadow: #5ef5c2 0px 0px 40px 0px;
+  box-shadow: #5ef5c2 0px 0px 40px 0px;
+  text-shadow: #276651 1px 1px 1px;
+  font: normal normal bold 23px comic sans ms;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button:hover,
+.button:focus {
+  background: #6cffdf;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6cffdf), to(#42ac88));
+  background: -moz-linear-gradient(top, #6cffdf, #42ac88);
+  background: linear-gradient(to bottom, #6cffdf, #42ac88);
+  color: #ffffff;
+  text-decoration: none;
+}
+.button:active {
+  background: #378f71;
+  background: -webkit-gradient(linear, left top, left bottom, from(#378f71), to(#378f71));
+  background: -moz-linear-gradient(top, #378f71, #378f71);
+  background: linear-gradient(to bottom, #378f71, #378f71);
+}
+.button:before{
+  content:  "\0000a0";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABfklEQVRIibXWv04bQRAG8J8pqCkQiigQsqDhEVBEASEFRaqIJhIVD0CZDvEIeQAKCoQEeQFkIZSaFkGRFPwRRWgoKJBlOaS4Mx4fd7DG5pO2mJ3Z75ud2925mpdRxyqWMIeJfP4WZ2hgHxcla0ewWUU8hV008fjKaGIHkwXyrdz/DKu4SyAujr/4nHNshfkebKAdnG0cYg0zGM3HTD53XIhv4qAg3JN5DD7Hx7ItFrCC6xd2hqzmsSy/MJZA3sGkrESVAnuFzPshp7fmzwTquqelLa0sHcTTUinwPRiHQ8z8SaARjLUhkz/WcKN7SWbxJ4F8up9kWkFxNHVRKkaGTVgmcBvsqfcQOAv2/HsIHAX72xD4TnS/6TqDXbQivgTye4x3HLvB8ZangqwZXQaeH9E5bbDHblxvaW5i9h2UPdcLCeSL+B3WtfCpKris4TRUN5yjQnxLwg0fpGWuJOwY/TX9B2zjQxlR7RWhOr5iWfe35Z/s9p/KyvcTV1UE/wF9/slyBGNP1QAAAABJRU5ErkJggg==") no-repeat left center transparent;
+  background-size: 100% 100%;
+}
